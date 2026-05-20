@@ -1,0 +1,10 @@
+{
+    "excel_path": "C:\\Users\\Asus\\AppData\\Local\\Temp\\tmpn82g4mys.xlsx",
+    "result_path": "C:\\Users\\Asus\\Desktop\\Yeni klasör (2)\\26.04.2026 - Kopya\\UPS-DSS\\solver_result.json",
+    "candidate_ap_count": 10,
+    "user_ap_count": 2,
+    "optimal_ap_count": 2,
+    "is_reoptimization": true,
+    "cost_gap": 5.0,
+    "dmax_gap": 5.0
+}

@@ -1,0 +1,19 @@
+{
+    "manager1": {
+        "password": "1234",
+        "role": "decision_maker"
+    },
+    "manager2": {
+        "password": "5678",
+        "role": "decision_maker"
+    },
+    "driver1": {
+        "password": "abcd",
+        "role": "delivery_staff"
+    },
+    "driver2": {
+        "password": "efgh",
+        "role": "delivery_staff"
+    }
+    
+}

@@ -1,0 +1,231 @@
+{
+  "state": "success",
+  "run_id": "20260515_211151",
+  "date": "2026-05-15",
+  "run_type": "reoptimization",
+  "best_cost": 469.0,
+  "dmax_val": 33.0,
+  "solver_status": "ok",
+  "termination": "optimal",
+  "opened_ap_count": 2,
+  "ap_count": 2,
+  "opened_ap_list": [
+    "i5",
+    "i9"
+  ],
+  "opened_aps": [
+    "i5",
+    "i9"
+  ],
+  "user_ap_count": 2,
+  "candidate_ap_count": 10,
+  "scenario_costs": {
+    "s1": 469.0
+  },
+  "cost_breakdown_by_scenario": {
+    "s1": {
+      "ap_fixed_cost": 60.0,
+      "routing_cost": 124.0,
+      "vehicle_fixed_cost": 35.0,
+      "variable_load_cost": 250.0,
+      "total_cost": 469.0
+    }
+  },
+  "customer_demand_summary": [
+    {
+      "customer": "i11",
+      "total_delivery": 16,
+      "total_pickup": 14,
+      "total_demand": 30
+    },
+    {
+      "customer": "i12",
+      "total_delivery": 2,
+      "total_pickup": 4,
+      "total_demand": 6
+    },
+    {
+      "customer": "i13",
+      "total_delivery": 3,
+      "total_pickup": 20,
+      "total_demand": 23
+    },
+    {
+      "customer": "i14",
+      "total_delivery": 17,
+      "total_pickup": 18,
+      "total_demand": 35
+    },
+    {
+      "customer": "i15",
+      "total_delivery": 20,
+      "total_pickup": 20,
+      "total_demand": 40
+    },
+    {
+      "customer": "i16",
+      "total_delivery": 18,
+      "total_pickup": 17,
+      "total_demand": 35
+    },
+    {
+      "customer": "i17",
+      "total_delivery": 20,
+      "total_pickup": 3,
+      "total_demand": 23
+    },
+    {
+      "customer": "i18",
+      "total_delivery": 17,
+      "total_pickup": 16,
+      "total_demand": 33
+    },
+    {
+      "customer": "i19",
+      "total_delivery": 11,
+      "total_pickup": 6,
+      "total_demand": 17
+    },
+    {
+      "customer": "i20",
+      "total_delivery": 1,
+      "total_pickup": 20,
+      "total_demand": 21
+    }
+  ],
+  "customer_assignments": [
+    {
+      "access_point": "i5",
+      "customer": "i11"
+    },
+    {
+      "access_point": "i5",
+      "customer": "i14"
+    },
+    {
+      "access_point": "i5",
+      "customer": "i15"
+    },
+    {
+      "access_point": "i5",
+      "customer": "i19"
+    },
+    {
+      "access_point": "i5",
+      "customer": "i20"
+    },
+    {
+      "access_point": "i9",
+      "customer": "i12"
+    },
+    {
+      "access_point": "i9",
+      "customer": "i13"
+    },
+    {
+      "access_point": "i9",
+      "customer": "i16"
+    },
+    {
+      "access_point": "i9",
+      "customer": "i17"
+    },
+    {
+      "access_point": "i9",
+      "customer": "i18"
+    }
+  ],
+  "used_route_arcs": [
+    {
+      "from": "i0",
+      "to": "i5",
+      "vehicle": "k2",
+      "scenario": "s1",
+      "order": "o1"
+    },
+    {
+      "from": "i0",
+      "to": "i20",
+      "vehicle": "k1",
+      "scenario": "s1",
+      "order": "o1"
+    },
+    {
+      "from": "i5",
+      "to": "i19",
+      "vehicle": "k2",
+      "scenario": "s1",
+      "order": "o2"
+    },
+    {
+      "from": "i9",
+      "to": "i16",
+      "vehicle": "k2",
+      "scenario": "s1",
+      "order": "o7"
+    },
+    {
+      "from": "i12",
+      "to": "i9",
+      "vehicle": "k2",
+      "scenario": "s1",
+      "order": "o6"
+    },
+    {
+      "from": "i13",
+      "to": "i12",
+      "vehicle": "k2",
+      "scenario": "s1",
+      "order": "o5"
+    },
+    {
+      "from": "i14",
+      "to": "i18",
+      "vehicle": "k2",
+      "scenario": "s1",
+      "order": "o10"
+    },
+    {
+      "from": "i15",
+      "to": "i13",
+      "vehicle": "k2",
+      "scenario": "s1",
+      "order": "o4"
+    },
+    {
+      "from": "i16",
+      "to": "i17",
+      "vehicle": "k2",
+      "scenario": "s1",
+      "order": "o8"
+    },
+    {
+      "from": "i17",
+      "to": "i14",
+      "vehicle": "k2",
+      "scenario": "s1",
+      "order": "o9"
+    },
+    {
+      "from": "i18",
+      "to": "i0",
+      "vehicle": "k2",
+      "scenario": "s1",
+      "order": "o11"
+    },
+    {
+      "from": "i19",
+      "to": "i15",
+      "vehicle": "k2",
+      "scenario": "s1",
+      "order": "o3"
+    },
+    {
+      "from": "i20",
+      "to": "i0",
+      "vehicle": "k1",
+      "scenario": "s1",
+      "order": "o2"
+    }
+  ]
+}

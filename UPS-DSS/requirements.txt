@@ -1,0 +1,10 @@
+streamlit
+pandas
+openpyxl
+xlsxwriter
+pyomo
+highspy
+plotly
+matplotlib
+altair
+requests

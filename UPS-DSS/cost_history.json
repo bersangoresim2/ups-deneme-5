@@ -1,0 +1,34 @@
+[
+    {
+        "run_date": "2026-05-07 13:32:16",
+        "file_name": "denemeDATA.xlsx",
+        "total_cost": 469.0,
+        "scenario_costs": {
+            "s1": 469.0
+        }
+    },
+    {
+        "run_date": "2026-05-10 15:59:11",
+        "file_name": "denemeDATA.xlsx",
+        "total_cost": 469.0,
+        "scenario_costs": {
+            "s1": 469.0
+        }
+    },
+    {
+        "run_date": "2026-05-14 10:43:11",
+        "file_name": "denemeDATA.xlsx",
+        "total_cost": 469.0,
+        "scenario_costs": {
+            "s1": 469.0
+        }
+    },
+    {
+        "run_date": "2026-05-14 14:16:04",
+        "file_name": "denemeDATA.xlsx",
+        "total_cost": 469.0,
+        "scenario_costs": {
+            "s1": 469.0
+        }
+    }
+]
